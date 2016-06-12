@@ -22,7 +22,7 @@ public class HomePage extends WebPage {
 			protected void onSubmit(){
 				System.out.println("Form submitted");
 				PageParameters pageParameters = new PageParameters();
-				pageParameters.add("msg", "this is parameter value");
+				pageParameters.add("msg", "this is parameter value - modified by Arya");
 				setResponsePage(SuccessPage.class, pageParameters);
 			}
 		};
